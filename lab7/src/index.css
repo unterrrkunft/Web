@@ -2,8 +2,7 @@ body {
   font-family: Inter, system-ui, Arial, sans-serif;
   margin: 0;
   min-height: 100vh;
-
-  /* balanced purple ↔ black ↔ purple */
+  
   background: linear-gradient(
     135deg,
     #2b0a40 0%,
@@ -20,10 +19,10 @@ body {
   align-items: center;
 }
 
-/* ===== MAIN CARD ===== */
+/* MAIN CARD */
 .app {
   width: 100%;
-  max-width: 560px; /* ⬅ трохи більше */
+  max-width: 560px;
 
   background: rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(14px);
@@ -35,25 +34,25 @@ body {
   box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5);
 }
 
-/* ===== TITLE ===== */
+/* TITLE */
 h1 {
   text-align: center;
   margin-bottom: 24px;
-  font-size: 30px; /* ⬅ збільшено */
+  font-size: 30px;
   letter-spacing: 1px;
   color: #c4b5fd;
 }
 
-/* ===== INPUT ===== */
+/* INPUT */
 .input-box {
   display: flex;
   gap: 12px;
-  margin-bottom: 24px; /* ⬅ з твоєї версії */
+  margin-bottom: 24px;
 }
 
 input {
   flex: 1;
-  padding: 14px 14px; /* ⬅ збільшено */
+  padding: 14px 14px;
 
   border-radius: 12px;
   border: none;
@@ -69,9 +68,9 @@ input::placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* ===== BUTTONS ===== */
+/* BUTTONS */
 button {
-  padding: 12px 14px; /* ⬅ збільшено */
+  padding: 12px 14px;
   border: none;
   border-radius: 12px;
 
@@ -93,7 +92,7 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* ===== FILTERS ===== */
+/* FILTERS */
 .filters {
   display: flex;
   justify-content: center;
@@ -110,21 +109,21 @@ button:disabled {
   background: rgba(139, 92, 246, 0.35);
 }
 
-/* ===== LIST ===== */
+/* LIST */
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* ===== TASK ITEM ===== */
+/* TASK ITEM */
 .task {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  padding: 14px 14px; /* ⬅ збільшено */
-  margin-bottom: 12px; /* ⬅ відступи як у тебе */
+  padding: 14px 14px;
+  margin-bottom: 12px;
 
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.06);
