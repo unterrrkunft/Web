@@ -1,8 +1,9 @@
 import { useContext, useState } from 'react'
-import { TaskContext } from '../App'
+import { TaskContext } from '../context/TaskContext'
 
 export default function TaskItem({ task = {} }) {
   const { deleteTask, toggleTask, editTask } = useContext(TaskContext)
+
   const [isEditing, setIsEditing] = useState(false)
   const [value, setValue] = useState(task.text)
 
